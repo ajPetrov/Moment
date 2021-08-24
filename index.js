@@ -32,18 +32,18 @@ function getGreet(){
         hour = today.getHours();
     if(hour < 12){
         //Morning Text and img
-        document.body.style.backgroundImage = "url('img/morning.jpg')";
+        document.body.style.backgroundImage = "url('morning.jpg')";
         greeting.textContent = 'Good Morning';
         
         
     }else if(hour < 18){
         //Afternoon Text and img
-        document.body.style.backgroundImage = "url('img/tree.jpg')";
+        document.body.style.backgroundImage = "url('tree.jpg')";
         greeting.textContent = 'Good Afternoon';
         document.body.style.color ='white'
     } else {
         //Evening Text and img
-        document.body.style.backgroundImage = "url('img/evening.jpg')";
+        document.body.style.backgroundImage = "url('evening.jpg')";
         greeting.textContent = "Good Evening";
         document.body.style.color = 'white';
 
